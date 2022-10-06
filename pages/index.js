@@ -13,6 +13,7 @@ export async function getStaticProps() {
     props: {
       recipes: res.items,
     },
+    revelidate: 1
   };
 }
 
