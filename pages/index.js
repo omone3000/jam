@@ -14,7 +14,7 @@ export async function getStaticProps() {
       recipes: res.items,
       revelidate: 1
     },
-    revelidate: 1
+    revalidate: 1
   };
 }
 
